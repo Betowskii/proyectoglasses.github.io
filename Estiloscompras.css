@@ -1,0 +1,304 @@
+body {
+    font-family: 'Arial';
+    background-image: url(imagenes/FondoBlanco.jpg);
+}
+label {
+    display: block;
+    color: azure;
+}
+input {
+    display: block;
+    margin: 10px 0;
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+}
+ 
+input:focus:invalid + span:after{
+    content: ' ✖︎';
+    color: red;
+    position: relative;
+    top: -40px;
+    left: 310px;
+}
+
+input:valid + span:after {
+    content: ' ✔︎';
+     color: green;
+    position: relative;
+    top: -40px;
+    left: 310px;
+}
+ 
+h1{
+    color: azure;
+}
+
+
+.titulo1{
+    width: 100%;
+    height: 100%;
+    margin-top: 55px;
+    background-color: blue;
+}
+.parteps4{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+}
+
+.titulo2{
+    width: 100%;
+    height: 100%;
+    margin-top: 55px;
+    background-color: blue;
+   
+}
+
+.titulo3{
+    width: 100%;
+    height: 100%;
+    margin-top: 25px;
+    background-color: greenyellow;
+}
+.partexboxone{
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+}
+
+.titulo4{
+    width: 100%;
+    height: 100%;
+    margin-top: 25px;
+    background-color: greenyellow;
+}
+
+
+
+.controlps4{
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+}
+
+
+
+.caja_assasins{
+     
+     width: 500px;
+    height: 300px;
+    color: black !important;
+    display: flex;
+   
+  
+}
+
+.caja_resident{
+
+ 
+    width: 500px;
+    height: 300px;
+   display: flex;
+}
+.caja_ghost{
+ 
+
+    width: 500px;
+    height: 300px;
+    display: flex;
+
+}
+.caja_titanfall{
+    
+    width: 500px;
+    height: 300px;
+   display: flex;
+    
+   
+}
+.caja_doom{
+
+  
+    width: 500px;
+    height: 300px;
+    display: flex;
+}
+
+.caja_last{
+
+   
+    width: 500px;
+    height: 300px;
+    display: flex;
+  
+}
+.caja_izquierda{
+   
+    width: 500px;
+}
+.caja_derecha{
+  
+    width: 500px;
+    margin-left:300px;
+}
+
+.caja_gears{
+
+  
+    width: 500px;
+    height: 300px;
+   display: flex;
+}
+
+.caja_titanfall1{
+   
+    width: 500px;
+    height: 300px;
+   display: flex;
+
+}
+.caja_farcry5{
+
+   
+    width: 500px;
+    height: 300px;
+   display: flex;
+
+}
+.caja_halo{
+
+   
+    width: 500px;
+    height: 300px;
+   display: flex;
+
+}
+.caja_farcrydawn{
+
+   
+    width: 500px;
+    height: 300px;
+   display: flex;
+}
+.caja_callof{
+
+   
+    width: 500px;
+    height: 300px;
+   display: flex;
+}
+
+.caja_izquierdaxbox{
+
+    
+    width: 500px;
+}
+.caja_derechaxbox{
+
+   
+    width: 500px;
+    margin-left:300px;
+}
+.control_blanco{
+  
+    width: 500px;
+    height: 300px;
+   display: flex;
+
+
+}
+.control_negro{
+   
+    width: 500px;
+    height: 300px;
+   display: flex;
+
+
+}
+.control_dorado{
+    
+    width: 500px;
+    height: 300px;
+   display: flex;
+
+}
+.control_rojo{
+   
+    width: 500px;
+    height: 300px;
+   display: flex;
+
+
+}
+
+.caja_izquierdacontrolay{
+    
+   
+    width: 500px;
+
+}
+.caja_derechacontrolplay{
+
+    
+    width: 500px;
+    margin-left:300px;
+}
+
+.control_xboxblanco{
+
+   
+    width: 500px;
+    height: 300px;
+   display: flex;
+
+
+}
+.control_xboxazul{
+
+    width: 500px;
+    height: 300px;
+   display: flex;
+
+
+}
+.control_xboxrojo{
+  
+    width: 500px;
+    height: 300px;
+   display: flex;
+
+
+}
+.control_xboxnegro{
+    
+    width: 500px;
+    height: 300px;
+   display: flex;
+
+
+    
+}
+
+.caja_izquierdacontrolxbox{
+
+    
+    width: 500px;
+
+}
+
+.caja_derechacontrolxbox{
+
+    width: 500px;
+    margin-left: 300px;
+}
+
+.zorr{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+}

@@ -1,0 +1,90 @@
+:root{
+    --heder-height: 70px;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    
+    
+
+.div_logo{
+
+    border: 2px solid white;
+    
+  
+}
+
+.div_insignias{
+
+    width:50%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+p{
+
+    color:gold;
+}
+
+body{
+    background-image: url(https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/5daf1c7e5bafe8f8c03c986b/record-videojuegos_0.jpg);
+
+width: 100vw;
+height: 100vh;
+}
+
+}
+h2{
+
+    color:gold
+}
+
+.section_perfil{
+    
+    margin-top: 50px;
+    width: 50%;
+    height: 90%;
+   
+
+
+   
+}
+
+.cuadro_imagen{
+display: flex;
+color: seashell;
+font-size: x-large;
+        
+}
+
+.puntuacion{
+
+    color: gold;
+    
+}
+.section_historial{
+    margin-top: 50px;
+    margin-left: 170px;
+  
+    height: 90%;
+    width: 50%;
+    
+    
+}
+
+.principal-section{
+    display: flex;
+   
+    padding:16px;
+    height: calc(100% - var(--heder-height));
+
+}
+
+.estrella{
+
+    color: papayawhip;
+   float: right;
